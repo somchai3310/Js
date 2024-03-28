@@ -1,0 +1,17 @@
+.somchai{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+
+.dark{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.light{
+    background-color: aquamarine;
+    color: black;
+}
+

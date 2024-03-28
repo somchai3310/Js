@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Event</title>
+</head>
+
+<!-- <body onload="welcome()"> -->
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit rerum necessitatibus qui eius vitae totam
+            officia iure quibusdam adipisci error?</p>
+    </div>
+    <label for="">ชื่อ</label>
+    <input type="text" placeholder="กรอกชื่อของคุณ" onfocus="hightLight(this)" onblur="unHightLight(this)">
+    <textarea name="" id="" cols="30" rows="10" onfocus="hightLight(this)" onblur="unHightLight(this)"></textarea>
+
+    <label for="">เลือกเครื่องมือ</label>
+    <select name="" id="menu" onchange="getMenu()">
+        <option value="JS">JS</option>
+        <option value="Python">Python</option>
+        <option value="Bootstrap">Bootstrap</option>
+    </select>
+
+    <p id="display"></p>
+
+    <a href="" onmouseover="hightLight(this)" onmouseout="unHightLight(this)">Menu 1</a>
+    <a href="">Menu 2</a>
+
+    <script src="domEvent.js"></script>
+</body>
+
+</html>

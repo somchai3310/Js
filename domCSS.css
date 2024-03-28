@@ -1,0 +1,15 @@
+.darkMode{
+    border: 1px solid #fff;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
+
+.lightMode{
+    border: 1px solid #fff;
+    background-color: lightblue;
+    color: black;
+    padding: 30px;
+    margin: 10px;
+}
